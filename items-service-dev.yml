@@ -1,0 +1,11 @@
+server:
+  port: 1008
+configuration:
+  text: Un texto q creo fue editado en tiempo real
+
+items:
+    url:
+        product:
+          basePath: http://products-service
+          getAll: ${items.url.product.basePath}/api/salazar/getList
+          getOne: ${items.url.product.basePath}/api/salazar/getOne/
