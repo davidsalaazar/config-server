@@ -7,5 +7,5 @@ items:
     url:
         product:
           basePath: http://products-service
-          getAll: ${service.url.produc.basePath}/api/salazar/getList
-          getOne: ${service.url.produc.basePath}/api/salazar/getOne/{id}
+          getAll: ${items.url.product.basePath}/api/salazar/getList
+          getOne: ${items.url.product.basePath}/api/salazar/getOne/
