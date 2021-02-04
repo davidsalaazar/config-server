@@ -3,3 +3,9 @@ server:
 configuration:
   text: Un texto q creo fue editado en tiempo real
 
+items:
+    url:
+        product:
+          basePath: http://products-service
+          getAll: ${service.url.produc.basePath}/api/salazar/getList
+          getOne: ${service.url.produc.basePath}/api/salazar/getOne/{id}

@@ -1,5 +1,0 @@
-server:
-  port: 1008
-configuration:
-  text: Un texto q creo si sirve en PROD
-
