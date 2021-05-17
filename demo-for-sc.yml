@@ -1,0 +1,13 @@
+spring:
+  application: 
+    name: demo-sc-test
+  jackson:
+    default-property-inclusion: NON_NULL
+
+ms:
+  demo-sc: 
+    api:
+      path: http://192.168.123.7:7801/eurekas
+      version: v2
+      error:
+        message: Error messager for first response
