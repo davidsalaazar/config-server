@@ -8,6 +8,6 @@ ms:
   demo-sc: 
     api:
       path: http://192.168.123.7:7801
-      version: v2
+      version: v3
       error:
         message: Error messager for first response
