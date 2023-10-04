@@ -9,3 +9,7 @@ items:
           basePath: http://products-service
           getAll: ${items.url.product.basePath}/api/salazar/getList
           getOne: ${items.url.product.basePath}/api/salazar/getOne/
+
+cipher:
+  king:
+    key: exerciseesjam          
